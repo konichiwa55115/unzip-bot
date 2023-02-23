@@ -10,7 +10,7 @@ import git
 import psutil
 from pyrogram import Client, enums, filters
 from pyrogram.errors import FloodWait, RPCError
-from pyrogram.types import Message
+from pyrogram.types.messages_and_media.message import Message
 
 from config import Config
 from unzipper import LOGGER, boottime, unzipperbot
