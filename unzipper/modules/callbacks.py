@@ -8,9 +8,9 @@ from urllib.parse import unquote
 
 from aiofiles import open as openfile
 from aiohttp import ClientSession
-from pyrogram import Client
+from pyrogram.client import Client
 from pyrogram.errors import ReplyMarkupTooLong
-from pyrogram.types import CallbackQuery
+from pyrogram.types.bots_and_keyboards.callback_query import CallbackQuery
 
 from config import Config
 from unzipper import LOGGER
