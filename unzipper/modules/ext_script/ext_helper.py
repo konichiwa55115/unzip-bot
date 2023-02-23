@@ -6,7 +6,7 @@ from subprocess import PIPE
 from subprocess import Popen
 
 from pykeyboard import InlineKeyboard
-from pyrogram.types import InlineKeyboardButton
+from pyrogram.types.bots_and_keyboards.inline_keyboard_button import InlineKeyboardButton
 
 from unzipper import LOGGER
 
