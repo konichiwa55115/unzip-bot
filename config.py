@@ -3,12 +3,12 @@ import os
 
 
 class Config:
-    APP_ID = int(os.environ.get("APP_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    LOGS_CHANNEL = int(os.environ.get("LOGS_CHANNEL"))
-    MONGODB_URL = os.environ.get("MONGODB_URL")
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+    APP_ID = int(17983098)
+    API_HASH = "ee28199396e0925f1f44d945ac174f64"
+    BOT_TOKEN = "5998737564:AAH19LlVDCRzXYv0T6UDgEDL36wwmwUxNGc"
+    LOGS_CHANNEL = int(-1001694045459)
+    MONGODB_URL = "mongodb+srv://Bala7a19871:Ibntaymya1.@cluster0.5mtsc.mongodb.net/?retryWrites=true&w=majority"
+    BOT_OWNER = int(6234365091)
     DOWNLOAD_LOCATION = f"{os.path.dirname(__file__)}/Downloaded"
     THUMB_LOCATION = f"{os.path.dirname(__file__)}/Thumbnails"
     TG_MAX_SIZE = 2040108421
