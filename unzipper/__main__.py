@@ -4,7 +4,7 @@ import os
 import signal
 import time
 
-from pyrogram import idle
+from pyrogram.methods.utilities.idle import idle
 
 from config import Config
 
